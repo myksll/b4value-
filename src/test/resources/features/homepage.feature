@@ -11,9 +11,8 @@ Scenario: Verify search functionality with a text
   When I  click the Jobs button on the page
   And I click zum b4 Job Portal on Jobs page
   Then I should see  search results related to joboffer
-
- # When I enter "Software" in the search input
- # And I click the search button
+ #When I enter "Software" in the search input
+ #And I click the search button
  # Then I should see relevant search results
 
  #Examples:

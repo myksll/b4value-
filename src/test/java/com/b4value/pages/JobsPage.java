@@ -23,5 +23,8 @@ public class JobsPage extends Homepage{
     @FindBy(xpath = "//*[@id=\"3-103\"]")
     public static WebElement jobPortaliFRAME ;
 
+    @FindBy(xpath = "//*[@id=\"4-6\"]/h1")
+    public static WebElement text ;
+
 
 }
