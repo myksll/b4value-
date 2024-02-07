@@ -8,9 +8,11 @@ User Story:   As a user, I want to use the search functionality on the b4value w
 
 Scenario: Verify search functionality with a text
   Given I am on the b4value website
-  Then I should click the Jobs button on the page
-  Then I should click zum b4 Job Portal on Jobs page
-  When I enter "Software" in the search input
+  When I  click the Jobs button on the page
+  And I click zum b4 Job Portal on Jobs page
+  Then I should see  search results related to joboffer
+
+ # When I enter "Software" in the search input
  # And I click the search button
  # Then I should see relevant search results
 
